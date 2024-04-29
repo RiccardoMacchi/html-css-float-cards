@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 18px;
 }
 
 
@@ -14,10 +15,26 @@
 }
 
 .col {
-    width: calc(100% / 3);
+    width: calc((100% - 120px) / 3);
     float: left;
+    margin: 20px;
+    background-color: #0f0e17;
     /* debug */
-    min-height: 150px;
-    background-color: blue;
-    border: 3px solid black;
+}
+
+.imgprofilo {
+    max-height: 180px;
+    float: left;
+    margin-right: 20px;
+}
+
+p {
+    /* margin: 5% auto 5% 5%; */
+    margin: 5% auto;
+    line-height: 200%;
+    color: #fff;
+}
+
+.mail {
+    color: #2789bd;
 }
