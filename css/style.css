@@ -19,6 +19,7 @@
     float: left;
     margin: 20px;
     background-color: #0f0e17;
+    box-shadow: 10px 10px 5px #dedede;
     /* debug */
 }
 
