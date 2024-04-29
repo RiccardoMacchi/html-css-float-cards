@@ -1,0 +1,23 @@
+/* regole generali */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col {
+    width: calc(100% / 3);
+    float: left;
+    /* debug */
+    min-height: 150px;
+    background-color: blue;
+    border: 3px solid black;
+}
