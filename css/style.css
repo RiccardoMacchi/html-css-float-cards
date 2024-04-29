@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-size: 18px;
+    font-family: "Fredoka";
 }
 
 #container {
@@ -19,7 +20,7 @@
 
 h1{
     font-size: 28px;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
     color: #e53372;
 }
 
@@ -40,14 +41,15 @@ h1{
 }
 
 .imgprofilo {
-    max-height: 180px;
+    max-height: 140px;
     float: left;
     margin-right: 20px;
 }
 
 p.txtcol {
     /* margin: 5% auto 5% 5%; */
-    margin: 5% auto;
+    margin: auto;
+    margin-top: 3%;
     line-height: 200%;
     color: #fff;
 }
